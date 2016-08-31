@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family:"宋体";background-color:#;}
+/*补充*/
+.danduhuibao-bg{margin:0 auto;background:url(../images/bg-hui_03.png) repeat-x;/*width:1221px;*/height:22px;text-align:center;border:1px solid #cccccc;}
+#receiverName{font-size:14px;line-height:22px;}
+#orgName{font-size:14px;line-height:22px;}
+
+.ddhb-kuang{width:300px;}
+
+/*已分配工作管理1*/
+.extbtn{text-decoration:none;color:#000000;}
+.extbtn:hover{text-decoration:none;color:#0f7fce;}
+.extbtn img:hover{color:#f00;}
+.worktitl{display:block;height:22px;line-height:22px;background:url(../images/bg-hui_03.png) repeat-x;border:1px solid #cccccc;}
+.worktitle{text-align:center;margin:0 auto;display:block;height:22px;line-height:22px;background:url(../images/bg-hui_03.png) repeat-x;border:1px solid #cccccc;}
+.worktitle1{text-align:center;margin:0 auto;display:block;height:24px;line-height:24px;color:#666666;}
+.worktitle2{text-align:center;margin:0 auto;display:block;}
+.worktitle3{text-align:center;margin:0 auto;display:block;height:24px;line-height:24px;margin-top:10px;}
+.worktitle4{margin-top:10px;}
+.subAssign{padding:5px;line-height:18px;}
+
+.none{border:1px solid #cccccc;padding:5px;display:block;}
+/*补充*/
+.easyui-window a{text-decoration:none;color:#000000;line-height:24px;}
+.easyui-window a:hover{border:1px solid #1F67B7; }
+
+
+
+.fenpeigongzuo{margin-top:10px;}
+.fenpeigongzuo-gznr{margin-top:10px;}
+#addsubassign{background:url(../images/8022_03.png) no-repeat;background-position:center;color:#ffffff;width:80px;height:24px;border:0px;}
+#ok{margin-top:10px;background:url(../images/anniu-button_03.png) no-repeat;background-position:center;color:#ffffff;width:60px;height:24px;border:0px;margin-right:20px;}
+
+/*单独汇报*/
+#btnResponse{margin-top:10px;background:url(../images/anniu-button_03.png) no-repeat;background-position:center;color:#ffffff;width:60px;height:24px;border:0px;}
+
+
+/*工作情况1*/
+#btnReturn{margin-top:10px;background:url(../images/anniu-button_03.png) no-repeat;background-position:center;color:#ffffff;width:60px;height:24px;border:0px;}
+.work-bg{margin:0 auto;background:url(../images/bg-hui_03.png) repeat-x;/*width:1221px;*/height:22px;text-align:center;border:1px solid #cccccc;}
+#task{font-size:14px;line-height:22px;}
+.when{text-align:center;line-height:24px;}
+.ceshi{background-color:#cccccc;height:24px;line-height:24px;padding-left:5px;margin-left:-5px;margin-right:-5px;margin-top:-5px;}
+
+.response{border:1px solid #cccccc;padding:5px;}
+/*.details{text-align:center;line-height:22px;}*/
+.subAssign{border:1px solid #cccccc;margin-top:5px;}
+
+
+
+/*工作情况1*/
+.subAssign{border:1px solid #cccccc;margin-top:5px;}
+
+/*工作情况2*/
+.jobcontent-big{border:1px solid #cccccc;margin-top:10px;}
+.jobcontent{height:24px;line-height:24px;background-color:#cccccc;padding-left:5px;display:block;}
+.response{border:1px solid #cccccc;padding:5px;}
+/*汇报工作*/
+.reportwork{margin:0 auto;text-align:center;line-height:24px;}
+#response{margin-top:10px;background:url(../images/anniu-button_03.png) no-repeat;background-position:center;color:#ffffff;width:60px;height:24px;border:0px;}
+.yourreply{border:1px solid #cccccc;;padding-left:5px;}
+.receipt{line-height:18px;border:1px solid #cccccc;padding-left:5px;margin-top:50px;}
+.time-hui{color:#666666;}
+.Responsibleforthemodule{height:200px;border:1px solid #cccccc;margin:5px;padding-left:5px;margin-right:10px;}
+.receipttime{background-color:#cccccc;display:block;height:24px;line-height:24px;margin-left:-5px;padding-left:5px;}
+
+
+.yourreply-out{height:24px;line-height:24px;margin-top:10px;background-color:#cccccc;border:1px solid #cccccc;padding-left:5px;}
+
+.departments{color:#666666;margin-top:10px;display:block;}
+.subsequentdevelopmentwork{background:url(../images/bg-hui_03.png) repeat-x;height:22px;line-height:22px;display:block;border:1px #cccccc solid;}
+/*收到的汇报*/
+.button-get{margin-top:10px;background:url(../images/anniu-button_03.png) no-repeat;background-position:center;color:#ffffff;width:60px;height:24px;border:0px;}
+.Reporttodepartment{text-align:center;margin-top:10px;}
+.report{font-size:12px;height:24px;line-height:24px;color:#666666;}
+.report1{font-size:12px;height:24px;line-height:24px;color:#666666;}
+.report2{font-size:12px;height:24px;line-height:24px;color:#666666;}
+.report3{font-size:12px;height:22px;line-height:22px;text-align:center;display:block;background:url(../images/bg-hui_03.png) repeat-x;border:1px solid #cccccc;}
+.Reportcontent{display:block;height:24px;line-height:24px;background-color:#cccccc;font-size:12px;padding-left:5px;}
+.report4{font-size:12px;height:24px;line-height:24px;padding-left:5px;border:1px solid #cccccc;}
+/*已分配工作管理2*/
+#btnEndWork{background:url(../images/8022_03.png) no-repeat;background-position:center;color:#ffffff;width:80px;height:24px;border:0px;}
+#btnRenewWork{background:url(../images/t0104a83ec292bfa25c_03.png) no-repeat;background-position:center;color:#ffffff;width:100px;height:24px;border:0px;}
+.subAssign{padding:5px;line-height:18px;}
+.subAssign a{text-decoration:none;color:#000000;font-size:12px;}
+.subAssign a:hover{color:#0f7fce;}
+
+.worktitl{text-align:center;display:block;line-height:22px;}
+.worktitl2{text-align:center;display:block;line-height:24px;margin-top:10px;}
+
+.remark{height:24px;line-height:24px;background-color:#cccccc;display:block;border:1px solid #cccccc;margin-top:5px;padding-left:5px;}
+.none{line-height:18px;}
+
+.text{margin:0 auto;}
+
+.testmodule{height:200px;border:1px solid #cccccc;padding-left:5px;margin-top:55px;}
+.response{border:1px solid #cccccc;margin-top:5px;padding:5px;}
+
+.dashed{border:1px dashed #cccccc;}
+.RDate{margin-top:10px;}
+.recoverytime{color:#666666;}
+/*分配工作*/
+#choickstaff a{text-decoration:none;color:#000000;line-height:24px;padding-left:5px;}
+#choickstaff a:hover{border:1px solid #1F67B7;}
+.cancel{color:#ffffff;text-decoration:none;background:url(../images/anniu-button_03.png) no-repeat;width:60px;height:22px;line-height:22px;display:block;text-align:center}
+.cancel:hover{}
+.putin{line-height:24px;}
+#txtendbak{margin-top:5px;}
+#btnEnd{background:url(../images/anniu-button_03.png) no-repeat;background-position:center;color:#ffffff;width:60px;height:24px;margin-top:5px;border:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

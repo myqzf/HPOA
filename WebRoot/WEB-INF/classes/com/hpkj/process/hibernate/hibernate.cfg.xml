@@ -1,0 +1,33 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<mapping class="com.hpkj.process.entity.ActEvtLog" />
+	<mapping class="com.hpkj.process.entity.ActGeBytearray" />
+	<mapping class="com.hpkj.process.entity.ActGeProperty" />
+	<mapping class="com.hpkj.process.entity.ActHiActinst" />
+	<mapping class="com.hpkj.process.entity.ActHiAttachment" />
+	<mapping class="com.hpkj.process.entity.ActHiComment" />
+	<mapping class="com.hpkj.process.entity.ActHiDetail" />
+	<mapping class="com.hpkj.process.entity.ActHiIdentitylink" />
+	<mapping class="com.hpkj.process.entity.ActHiProcinst" />
+	<mapping class="com.hpkj.process.entity.ActHiTaskinst" />
+	<mapping class="com.hpkj.process.entity.ActHiVarinst" />
+	<mapping class="com.hpkj.process.entity.ActIdGroup" />
+	<mapping class="com.hpkj.process.entity.ActIdInfo" />
+	<mapping class="com.hpkj.process.entity.ActIdMembership" />
+	<mapping class="com.hpkj.process.entity.ActIdMembershipId" />
+	<mapping class="com.hpkj.process.entity.ActIdUser" />
+	<mapping class="com.hpkj.process.entity.ActProcdefInfo" />
+	<mapping class="com.hpkj.process.entity.ActReDeployment" />
+	<mapping class="com.hpkj.process.entity.ActReModel" />
+	<mapping class="com.hpkj.process.entity.ActReProcdef" />
+	<mapping class="com.hpkj.process.entity.ActRuEventSubscr" />
+	<mapping class="com.hpkj.process.entity.ActRuExecution" />
+	<mapping class="com.hpkj.process.entity.ActRuIdentitylink" />
+	<mapping class="com.hpkj.process.entity.ActRuJob" />
+	<mapping class="com.hpkj.process.entity.ActRuTask" />
+	<mapping class="com.hpkj.process.entity.ActRuVariable" />
+</session-factory>
+</hibernate-configuration>
