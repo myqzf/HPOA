@@ -163,14 +163,7 @@ public class CultureController {
     	return rtnFlg;
     }
 	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	public String getRtnFlg() {
 		return rtnFlg;
@@ -181,8 +174,5 @@ public class CultureController {
 		this.rtnFlg = rtnFlg;
 	}
 	
-	
-	
-	
-	
+
 }
