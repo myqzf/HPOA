@@ -67,19 +67,13 @@ public class ProcessServiceImpl extends BaseServiceImpl implements
 				.orderByProcessDefinitionVersion().asc()
 				//.orderAsc(ProcessDefinitionQuery.PROPERTY_VERSION)//
 				.list();
-//		List<ProcessDefinition> list = processEngine.getRepositoryService()//
-//				.createProcessDefinitionQuery()//
-//				.orderByProcessDefinitionVersion().asc()
-//				.listPage(from, length);
-//				//.orderAsc(ProcessDefinitionQuery.PROPERTY_VERSION)//
-//		long size=processEngine.getRepositoryService().createDeploymentQuery().count();
+
 		// 过滤出所有最新的版本
 		Map<String, ProcessDefinition> map = new HashMap<String, ProcessDefinition>();
 		for (ProcessDefinition pd : all) {
 			map.put(pd.getKey(),pd);
 		}
-//		  List<ProcessDefinition> pdList = new ArrayList<ProcessDefinition>(map.values());
-		  
+
 		//map转换成list
 		 
 	       List listValue = new ArrayList();  
@@ -130,9 +124,7 @@ public class ProcessServiceImpl extends BaseServiceImpl implements
 				.createDeployment()//
 //				.name("请假流程")// 添加部署规则的显示别名
 				.addZipInputStream(zipInputStream)
-				// .addInputStream(fileName,bpmnfileInputStream)  
-				//.addClasspathResource(path+"\\"+fileName)
-			  //.addClasspathResource("com/hpkj/processdefinition/MyProcess.bpmn")
+			rce("com/hpkj/processdefinition/MyProcess.bpmn")
 				.deploy();
 		System.out.println("部署成功：deploymentId = " + deploymentId);
 		    rtn = "1";
@@ -183,14 +175,7 @@ public class ProcessServiceImpl extends BaseServiceImpl implements
 						.createProcessDefinitionQuery()//
 						.processDefinitionId(id)//
 						.singleResult();
-//				ProcessEngineConfiguration processEngineConfiguration = Context.getProcessEngineConfiguration();
-//				BpmnModel bpmnModel= processEngine.getRepositoryService().getBpmnModel(id);
-//				 InputStream is = processEngine.getProcessEngineConfiguration()
-//		                 .getProcessDiagramGenerator()
-//		                 .generateDiagram(bpmnModel, "png", id, 
-//                                                processEngineConfiguration.getActivityFontName(),
-//                                                processEngineConfiguration.getLabelFontName(), null, 1.0);
-				
+
 				
 				// 返回图片资源
 				return processEngine.getRepositoryService().getResourceAsStream(pd.getDeploymentId(),pd.getDiagramResourceName() );
